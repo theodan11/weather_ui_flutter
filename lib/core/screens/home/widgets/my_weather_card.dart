@@ -17,7 +17,7 @@ class MyWeatherCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 6),
+      margin: const EdgeInsets.symmetric(horizontal: 3),
       width: 82,
       height: 172,
       decoration: BoxDecoration(

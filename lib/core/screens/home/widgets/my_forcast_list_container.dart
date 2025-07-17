@@ -7,7 +7,7 @@ class MyForcastListContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 14),
+      padding: const EdgeInsets.symmetric(horizontal: 10),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -16,13 +16,13 @@ class MyForcastListContainer extends StatelessWidget {
             height: 24,
             child: Image.asset('assets/images/icon_chevron_left_.png'),
           ),
-          const SizedBox(
-            width: 6,
-          ),
+          // const SizedBox(
+          //   width: 6,
+          // ),
           MyForecastListBuilder(),
-          const SizedBox(
-            width: 6,
-          ),
+          // const SizedBox(
+          //   width: 6,
+          // ),
           SizedBox(
             width: 24,
             height: 24,
