@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weather_app_ui/core/screens/home/my_weather_card.dart';
+import 'package:weather_app_ui/core/screens/home/widgets/my_weather_card.dart';
 
 class MyForecastListBuilder extends StatelessWidget {
   final List<Map<String, dynamic>> forecasts = [
@@ -44,24 +44,22 @@ class MyForecastListBuilder extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Flexible(
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 10.0),
-        child: SizedBox(
-          width: double.infinity,
-          height: 172,
-          child: ListView.builder(
-            scrollDirection: Axis.horizontal,
-            itemCount: forecasts.length,
-            itemBuilder: (context, index) {
-              Map<String, dynamic> todaySForcast = forecasts[index];
-              return MyWeatherCard(
-                temperature: todaySForcast["temperature"],
-                imagePath: todaySForcast["image"],
-                day: todaySForcast["day"],
-                isToday: index == 0 ? true : false,
-              );
-            },
-          ),
+      child: SizedBox(
+        width: 372,
+        height: 172,
+        child: ListView.builder(
+          // shrinkWrap: true,
+          scrollDirection: Axis.horizontal,
+          itemCount: forecasts.length,
+          itemBuilder: (context, index) {
+            Map<String, dynamic> todaySForcast = forecasts[index];
+            return MyWeatherCard(
+              temperature: todaySForcast["temperature"],
+              imagePath: todaySForcast["image"],
+              day: todaySForcast["day"],
+              isToday: index == 0 ? true : false,
+            );
+          },
         ),
       ),
     );

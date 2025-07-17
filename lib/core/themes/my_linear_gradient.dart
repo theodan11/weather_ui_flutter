@@ -23,4 +23,31 @@ class MyLinearGradient {
       ColorConstant.lGradientBottom,
     ],
   );
+
+  static const LinearGradient myInactiveCardLinearGradient = LinearGradient(
+    begin: Alignment.topCenter,
+    end: Alignment.bottomCenter,
+    colors: [
+      ColorConstant.inactiveLGradientTop,
+      ColorConstant.inactiveLGradientBottom
+    ],
+  );
+
+  static const LinearGradient myCardLinearGradient = LinearGradient(
+    begin: Alignment.topRight,
+    end: Alignment.bottomLeft,
+    colors: [
+      ColorConstant.cardLGradientLeft,
+      ColorConstant.cardLGradientBottomLeft
+    ],
+  );
+
+  static const LinearGradient myDividerGradient = LinearGradient(
+      begin: Alignment.topRight,
+      end: Alignment.bottomCenter,
+      colors: [
+        ColorConstant.dividerGradientRight,
+        ColorConstant.dividerGradientMiddle,
+        ColorConstant.dividerGradientLeft,
+      ]);
 }

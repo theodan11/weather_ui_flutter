@@ -35,5 +35,13 @@ class MyPoppinsFont {
     letterSpacing: 0.47,
   );
 
+  static final TextStyle poppinsWeatherS20Medium = GoogleFonts.poppins(
+    color: ColorConstant.textWhite,
+    fontSize: 20,
+    fontWeight: FontWeight.w600,
+    height: 1.238,
+    letterSpacing: 0.47,
+  );
+
   // static final TextStyle poppinsWeatherS24Bold = GoogleFonts.poppins(fontSize: );
 }

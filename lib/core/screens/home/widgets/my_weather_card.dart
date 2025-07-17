@@ -17,7 +17,7 @@ class MyWeatherCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.only(right: 7),
+      margin: const EdgeInsets.symmetric(horizontal: 6),
       width: 82,
       height: 172,
       decoration: BoxDecoration(
@@ -26,7 +26,7 @@ class MyWeatherCard extends StatelessWidget {
         ),
         gradient: isToday
             ? MyLinearGradient.myActiveCardLinearGradient
-            : MyLinearGradient.myBackgroundLinearGradient,
+            : MyLinearGradient.myInactiveCardLinearGradient,
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -34,7 +34,7 @@ class MyWeatherCard extends StatelessWidget {
         children: [
           Text(
             "$temperature°C",
-            style: MyPoppinsFont.poppinsWeatherS24,
+            style: MyPoppinsFont.poppinsWeatherS20Medium,
           ),
           SizedBox(
             width: 66,
@@ -46,7 +46,7 @@ class MyWeatherCard extends StatelessWidget {
           ),
           Text(
             day,
-            style: MyPoppinsFont.poppinsWeatherS24,
+            style: MyPoppinsFont.poppinsWeatherS20Medium,
           )
         ],
       ),

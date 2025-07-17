@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weather_app_ui/core/screens/getstart/my_button.dart';
+import 'package:weather_app_ui/core/screens/getstart/widgets/my_button.dart';
 import 'package:weather_app_ui/core/themes/my_linear_gradient.dart';
 import 'package:weather_app_ui/core/themes/my_poppins_font.dart';
 
@@ -13,30 +13,35 @@ class GetStartPage extends StatelessWidget {
         decoration: const BoxDecoration(
           gradient: MyLinearGradient.myBackgroundLinearGradient,
         ),
-        child: SizedBox(
-          width: double.maxFinite,
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              SizedBox(
-                width: 448,
-                child: Image.asset(
-                  'assets/images/w_fore_sunny_cloudy_rain.png',
+        child: SingleChildScrollView(
+          child: SizedBox(
+            width: double.maxFinite,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                SizedBox(
+                  width: 448,
+                  child: Image.asset(
+                    'assets/images/w_fore_sunny_cloudy_rain.png',
+                  ),
                 ),
-              ),
-              Text(
-                "Weather",
-                style: MyPoppinsFont.poppinsTitleBold,
-              ),
-              Text(
-                "ForeCasts",
-                style: MyPoppinsFont.poppinsTitleBottomMedium,
-              ),
-              const SizedBox(
-                height: 52,
-              ),
-              const MyButton(),
-            ],
+                Text(
+                  "Weather",
+                  style: MyPoppinsFont.poppinsTitleBold,
+                ),
+                Text(
+                  "ForeCasts",
+                  style: MyPoppinsFont.poppinsTitleBottomMedium,
+                ),
+                const SizedBox(
+                  height: 52,
+                ),
+                const MyButton(),
+                const SizedBox(
+                  height: 52,
+                ),
+              ],
+            ),
           ),
         ),
       ),
