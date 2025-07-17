@@ -10,6 +10,7 @@ class GetStartPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        height: MediaQuery.of(context).size.height,
         decoration: const BoxDecoration(
           gradient: MyLinearGradient.myBackgroundLinearGradient,
         ),
@@ -37,9 +38,6 @@ class GetStartPage extends StatelessWidget {
                   height: 52,
                 ),
                 const MyButton(),
-                const SizedBox(
-                  height: 52,
-                ),
               ],
             ),
           ),

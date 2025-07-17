@@ -13,7 +13,7 @@ class MyButton extends StatelessWidget {
         print("pressed");
         Navigator.of(context).push(
           MaterialPageRoute(
-            builder: (_) => HomeScreen(),
+            builder: (_) => const HomeScreen(),
           ),
         );
       },
