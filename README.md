@@ -1,10 +1,23 @@
-# weather_app_ui
+# A Weather App UI Conversion from Figma Design
 
-A new Flutter project.
+![Get Start page](./githubReadmeAssets/getstart.png) ![Home Page](./githubReadmeAssets/homepage.png)
 
-## Getting Started
+## About the project
 
-This project is a starting point for a Flutter application.
+This project is a User Interface (UI) conversion of a weather application based on figma design. It purely focuses on frontend UI part of the application using flutter. 
+
+## Comparison Between the Design and the Project
+
+### Get Start Page
+![Get Start page](./githubReadmeAssets/getstartComparison.png)
+
+### Home Page
+![Home page](./githubReadmeAssets/homepageComparison.png)
+
+## A Quick Demo of the Project
+
+<img src="./githubReadmeAssets/video13pro.gif"/>
+
 
 A few resources to get you started if this is your first Flutter project:
 
