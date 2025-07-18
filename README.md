@@ -24,11 +24,4 @@ This project is a User Interface (UI) conversion of a weather application based 
 
 &rarr; ![Figma Design](https://www.figma.com/design/rR9SJ5TSeVQimG0SKAfGoY/assignment-on-weather-app?node-id=3-21&t=8QFX9SlbB46ZAwz9-1)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
