@@ -45,7 +45,7 @@ class MyForecastListBuilder extends StatelessWidget {
   Widget build(BuildContext context) {
     return Flexible(
       child: SizedBox(
-        width: 372,
+        width: 354,
         height: 172,
         child: ListView.builder(
           // shrinkWrap: true,
