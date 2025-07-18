@@ -26,6 +26,9 @@ class GetStartPage extends StatelessWidget {
                     'assets/images/w_fore_sunny_cloudy_rain.png',
                   ),
                 ),
+                const SizedBox(
+                  height: 52,
+                ),
                 Text(
                   "Weather",
                   style: MyPoppinsFont.poppinsTitleBold,
