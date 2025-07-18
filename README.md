@@ -16,7 +16,7 @@ This project is a User Interface (UI) conversion of a weather application based 
 
 ## A Quick Demo of the Project
 
-<img src="./githubReadmeAssets/video13pro.gif" width="50%" height="50%"/>
+<img src="./githubReadmeAssets/video13pro.gif" width="300"/>
 
 
 
