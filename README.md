@@ -9,10 +9,10 @@ This project is a User Interface (UI) conversion of a weather application based 
 ## Comparison Between the Design and the Project
 
 ### Get Start Page
-![Get Start page](./githubReadmeAssets/getstartComparison.png)
+![Get Start page](./githubReadmeAssets/homepageComparison.png)
 
 ### Home Page
-![Home page](./githubReadmeAssets/homepageComparison.png)
+![Home page](./githubReadmeAssets/getstartComparison.png)
 
 ## A Quick Demo of the Project
 
